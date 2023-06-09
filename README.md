@@ -23,3 +23,19 @@ Certifique-se de ter o NodeJs atualizado antes de seguir os próximos passos
   Abra o Terminal
   Digite: npm start
 ```
+
+## Stacks utilizadas
+
+**Front-end:** ReactJS e CSS
+
+**Back-end:** NodeJS, PHP e MySQL
+
+
+## 🛠 Habilidades
+Javascript, HTML, CSS, PHP, MySQL
+
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
