@@ -1,5 +1,3 @@
-Colocarei aqui os scripts apenas para caso de copias
-
 <?php
 include('./conexao.php');
 header('Access-Control-Allow-Origin: *');
