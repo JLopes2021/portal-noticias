@@ -16,7 +16,7 @@ function Navbar(){
           </li>
           <li>
             <Link activeClass="active" smooth spy to="blog">
-              ????????
+              ESTATÍSTICAS
             </Link>
           </li>
           <li>

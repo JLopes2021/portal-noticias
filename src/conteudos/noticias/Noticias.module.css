@@ -9,9 +9,8 @@
 }
 
 .container_noticia p {
-    width: 70%;
-    height: 55%;
     padding: 20px;
+    
   }
   
 
@@ -20,10 +19,8 @@
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 220px;
     margin: auto;
   }
-  
   
   
  .figcaption {
@@ -31,6 +28,10 @@
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
+    font-size: 10px;
     text-align: center;
   }
   
+  .prodTitle{
+    color: red;
+  }
