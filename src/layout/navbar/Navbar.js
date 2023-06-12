@@ -4,24 +4,24 @@ function Navbar(){
     return(
         <nav className={styles.nav__container__actions}>
         <ul className={styles.ul}>
-          <li>
+          <li className={styles.itemList}>
             <Link activeClass="active" smooth spy to="about">
-              SOBRE MIM
+              NOSSO PORTAL
             </Link>
           </li>
-          <li>
+          <li className={styles.itemList}>
             <Link activeClass="active" smooth spy to="projects">
-              PROJETOS
+              NOTÍCIAS
             </Link>
           </li>
-          <li>
+          <li className={styles.itemList}>
             <Link activeClass="active" smooth spy to="blog">
               ESTATÍSTICAS
             </Link>
           </li>
-          <li>
+          <li className={styles.itemList}>
             <Link activeClass="active" smooth spy to="contact">
-              MEUS CONTATOS
+              CONTATO
             </Link>
           </li>
           <li>
