@@ -1,16 +1,63 @@
 import styles from './Estatisticas.module.css'
+import { useState } from 'react';
+import { sculptureList } from './carousel/data';
 
-function Estatisticas(){
-    return(
-        <div><h1>About</h1>
-        
-        <div container-fluid>
-            <h2 className={styles.title}>Notícias quentes da hora</h2>
-            <p>Descrição da notícia quente da hora</p>
-            <small>Passando em scroll lateral</small>
-        </div>
-        
-        </div>    )
-};
 
-export default Estatisticas;
+
+function Estatisticas() {
+    const [index, setIndex] = useState(0);
+    const [showMore, setShowMore] = useState(false);
+  
+    let hasPrev = index > 0;
+    let hasNext = index < sculptureList.length - 1;
+  
+    function handlePrevClick() {
+      if (hasPrev) {
+        setIndex(index - 1);
+      }
+    }
+  
+    function handleNextClick() {
+      if (hasNext) {
+        setIndex(index + 1);
+      }
+    }
+  
+    function handleMoreClick() {
+      setShowMore(!showMore);
+    }
+  
+    let sculpture = sculptureList[index];
+    return (
+      <>
+        <button
+          onClick={handlePrevClick}
+          disabled={!hasPrev}
+        >
+          Previous
+        </button>
+        <button
+          onClick={handleNextClick}
+          disabled={!hasNext}
+        >
+          Next
+        </button>
+        <h2>
+          <i>{sculpture.name} </i> 
+          by {sculpture.artist}
+        </h2>
+        <h3>  
+          ({index + 1} of {sculptureList.length})
+        </h3>
+        <button onClick={handleMoreClick}>
+          {showMore ? 'Hide' : 'Show'} details
+        </button>
+        {showMore && <p>{sculpture.description}</p>}
+        <img 
+          src={sculpture.url} 
+          alt={sculpture.alt}
+        />
+      </>
+    );
+  }
+  export default Estatisticas;

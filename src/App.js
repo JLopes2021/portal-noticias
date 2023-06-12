@@ -4,6 +4,7 @@ import Noticias from './conteudos/noticias/Noticias'
 import Estatisticas from './conteudos/estatisticas/Estatisticas';
 import './App.css';
 import Navbar from './layout/navbar/Navbar'
+import Footer from './layout/footer/Footer';
 function App(){
   return(
     <div>
@@ -17,8 +18,9 @@ function App(){
       <section id="blog">
       <Estatisticas/>
       </section>
-      <section id="contact"><Contato/></section>
-
+      <section id="contact"><Contato/>
+      </section>
+      <Footer/>
     </div>
   )
 }

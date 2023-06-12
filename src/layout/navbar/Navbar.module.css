@@ -42,13 +42,6 @@
 
    }
 
-   .nav__container__actions_footer {
-     display: flex;
-
-     flex: 1;
-
-
-   }
 
    .active {
      font-weight: bold;
