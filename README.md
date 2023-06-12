@@ -39,3 +39,13 @@ Javascript, HTML, CSS, PHP, MySQL
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Estágios de Produção
+Landing page: Em construção
+Página das Notícias: Em planejamento
+Página de Contato: Em planejamento
+Página de Estatísticas: Em planejamento
+
+### Landing Page
+-> O Layout ainda está sendo definido de acordo com os conteúdos que ainda vão ser inseridos no sistema de noticias
+-> O menu superior já esta em funcionamento 
+-> Falta construir ainda o Footer
