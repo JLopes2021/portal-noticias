@@ -1,35 +1,26 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import Contato from './conteudos/contato/Contato'
+import About from './conteudos/about/About'
+import Noticias from './conteudos/noticias/Noticias'
 import './App.css';
+import Navbar from './layout/navbar/Navbar'
+function App(){
+  return(
+    <div>
+      <Navbar/>
+      <section id="about">
+      <About/>
+      </section>
+      <section id="projects">
+      <Noticias/>
+      </section>
+      <section id="blog">
 
-function App() {
-  const [posts, setPosts] = useState([]);
+      </section>
+      <section id="contact"><Contato/></section>
 
-  useEffect(() => {
-    axios.get('http://localhost/noticiasweb/')
-      .then(function (res) {
-        setPosts(res.data);
-      })
-  }, [])
-
-  return (
-    <div className="App">
-      {
-        posts.map(function (val) {
-          return (
-            <div className='container-noticia'>
-              <figure>
-                <img src={val.imagem} />
-                <figcaption>{val.rodape}</figcaption>
-              </figure>
-              <p>{val.noticia}</p>
-
-            </div>
-          )
-        })
-      }
     </div>
-  );
+  )
 }
+ 
 
 export default App;
