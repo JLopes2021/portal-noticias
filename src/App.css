@@ -1,9 +1,11 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
- 
+  scroll-behavior: smooth;
+
 }
+
 section {
   display: grid;
   place-items: center;
@@ -11,9 +13,10 @@ section {
   font-size: 32px;
 }
 
-#about, #blog {
+#about,
+#blog {
   color: #e1d6f6;
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,59,84,1) 2%, rgba(0,51,75,1) 3%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 59, 84, 1) 2%, rgba(0, 51, 75, 1) 3%, rgba(0, 0, 0, 1) 100%);
 }
 
 #projects,

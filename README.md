@@ -43,9 +43,10 @@ Javascript, HTML, CSS, PHP, MySQL
 Landing page: Em construção -> 75% Done.
 Página das Notícias: Em planejamento
 Página de Contato: Em planejamento
-Página de Estatísticas: Em planejamento
+Página de Estatísticas: Foi convertida em uma página para informações sonre a seleção brasileira
 
 ### Landing Page
 -> O Layout ainda está sendo definido de acordo com os conteúdos que ainda vão ser inseridos no sistema de noticias
 -> A Página já está funcional e os detalhes estão sendo alocados conforme a necessidade
 -> API de consulta de imagens foi criada
+-> Já existe funcionamento da sessão de informações da seleção brasileira
