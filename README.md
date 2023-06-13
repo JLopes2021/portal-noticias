@@ -48,3 +48,4 @@ Página de Estatísticas: Em planejamento
 ### Landing Page
 -> O Layout ainda está sendo definido de acordo com os conteúdos que ainda vão ser inseridos no sistema de noticias
 -> A Página já está funcional e os detalhes estão sendo alocados conforme a necessidade
+-> API de consulta de imagens foi criada
