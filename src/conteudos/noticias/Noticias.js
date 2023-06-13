@@ -18,16 +18,14 @@ function Noticias() {
         posts.map(function (val) {
           return (
             <div container-fluid>
-                <h2 className={styles.prodTitle}>Noticias Especificas</h2>
                 <div className={styles.container_noticias}>
               <figure className={styles.figure}>
-                <img src={val.imagem} />
+                <img className={styles.img} src={val.imagem} />
                 <figcaption className={styles.figcaption}>{val.rodape}</figcaption>
               </figure>
               <p className={styles.p}>{val.noticia}</p>
 
             </div>
-            <small className={styles.prodTitle}>Noticias de formato congelado que so avança se o usuario quiser</small>
             </div>
             
           )

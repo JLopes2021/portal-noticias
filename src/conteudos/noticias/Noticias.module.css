@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap'); /*Textos font-family: 'Kite One', sans-serif;*/
+
 .container_noticias{
     display: flex;
     padding: 2vh;
@@ -8,11 +10,12 @@
     height: 65%;
 }
 
-.container_noticia p {
-    padding: 20px;
-    
-  }
-  
+.p{
+  color: black;
+  font-size: 3vmin;
+  font-family: 'Kite One', sans-serif;
+  margin-top: 60px;
+}
 
 .figure {
     border: thin #c0c0c0 solid;
@@ -22,6 +25,10 @@
     margin: auto;
   }
   
+  .figure img {
+    height: 30vmin;
+    width: 25vmin;
+  }
   
  .figcaption {
     background-color: #222;
