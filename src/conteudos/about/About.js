@@ -7,7 +7,6 @@ function About() {
 
             <div container-fluid>
                 <div class="container-btn">
-                    <div class="col1"><h1>123</h1></div>
                     <div class="col2">  <Carousel className={styles.carousel}>
                     <Carousel.Item interval={15000}>
                         <img

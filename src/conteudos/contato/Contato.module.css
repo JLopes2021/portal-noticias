@@ -1,28 +1,24 @@
-.container_ctt {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: column dense;
-    justify-content: space-around;
-    align-content: stretch;
-    justify-items: stretch;
-    align-items: stretch;
-    grid-template-areas:
-      "."
-      "."
-      "."
-      ".";
-  }
+.cartao{
   
-  .container_ctt p {
-    align-items: center;
-    text-align: justify;
-  }
-
-  .title{
-    text-align: center;
-    align-items: center;
-    
-  }
+  border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+border: 0px solid #000000;
+}
+.bodyCard{
+background-color: #020516;  opacity: 0.8;
+}
+.title_card{
+  font-size:  5vmin;
+  color: aliceblue;
+}
+.text_card{
+  font-size: 3vmin;
+  color: aliceblue;
+}
+.list_group_flush{
+  font-size: 1.5vmin;
+}
+.bodyLink{
+  font-size: 10px;
+}
