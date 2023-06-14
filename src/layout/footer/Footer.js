@@ -19,12 +19,12 @@ function Footer() {
           </li>
           <li className={styles.itemList}>
             <Link activeClass="active" smooth spy to="blog">
-              ESTATÍSTICAS
+              SELEÇÃO BRASILEIRA
             </Link>
           </li>
           <li className={styles.itemList}>
             <Link activeClass="active" smooth spy to="contact">
-              CONTATOS
+              SETORIAL
             </Link>
           </li>
           <li>
